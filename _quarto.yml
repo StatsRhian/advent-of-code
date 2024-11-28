@@ -11,14 +11,13 @@ execute:
 website:
   title: "Advent of Code"
   description: My solutions to Advent of Code
-  repo-url: https://github.com/EllaKaye/advent-of-code-website-template
+  repo-url: https://github.com/statsrhian/advent-of-code
   navbar:
     left:
-      - 2022.qmd
       - 2024.qmd
     right:
       - icon: github
-        href: https://github.com/EllaKaye/advent-of-code-website-template
+        href: https://github.com/statsrhian/
   open-graph: true
 
 format:

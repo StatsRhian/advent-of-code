@@ -2,11 +2,19 @@
 title: "2024: Introduction"
 date: 2024-11-25
 code-tools: false
-categories: [demo]
+categories: 
 ---
 
-Here's a demo introduction page. It's created from `"./_templates/YYYY-intro"` as part of the call to `aoc_new_year(2024)`. 
+Most years I don't do Advent of Code. And it's unlikely I'll get more than a few days into it this year. 
 
-It can be deleted with a call to `aoc_delete_intro(2024)` (though there needs to be at least one post in `./2024/day` for the website to render from Quarto v1.4).
+Honestly, building R packages, Quarto websites and creating GitHub issues is often more fun for me than solving computer programming puzzles.
 
-This is a good place to note any overarching themes for the year, what you want to practice/learn, etc.
+However, here I am, thinking about it again. Why?
+
+- I'm a little pycurious, and advent of code is a nice opportunity to dabble in Python
+- I'm trying to become less of a perfectionist, and so trying to solve something with limited time and uploading it is a good skill for me to practice.
+- A couple of people in the [NHS-R community](https://join.slack.com/t/nhsrcommunity/shared_invite/zt-2r1yjgkio-steh_TwjVUJXdMDhKl~kjA) are doing it - and it's more fun with friends
+- I really liked [Ella's cute template for a website](https://github.com/EllaKaye/advent-of-code-website-template).
+
+Will I make it past day 3? Who knows 🤷 
+
