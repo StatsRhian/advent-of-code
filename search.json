@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Advent of Code",
+    "section": "",
+    "text": "Advent of Code is a series of increasingly difficult programming challenges, released daily each year throughout December in the run-up to Christmas.\nThis website is created from the EllaKaye/advent-of-code repository. It is built with Quarto and supported by the aochelpers package."
+  },
+  {
+    "objectID": "fonts/LICENSE.html",
+    "href": "fonts/LICENSE.html",
+    "title": "iA Writer Typeface",
+    "section": "",
+    "text": "iA Writer Typeface\nCopyright © 2018 Information Architects Inc. with Reserved Font Name “iA Writer”\n\n\nBased on IBM Plex Typeface\nCopyright © 2017 IBM Corp. with Reserved Font Name “Plex”\n\n\nLicense\nThis Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL\n\n\n\nSIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\n\n\n\nPREAMBLE The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.\nThe OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.\nDEFINITIONS “Font Software” refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.\n“Reserved Font Name” refers to any names specified as such after the copyright statement(s).\n“Original Version” refers to the collection of Font Software components as distributed by the Copyright Holder(s).\n“Modified Version” refers to any derivative made by adding to, deleting, or substituting – in part or in whole – any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.\n“Author” refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.\nPERMISSION & CONDITIONS Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:\n\nNeither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.\nOriginal or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.\nNo Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.\nThe name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.\nThe Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.\n\nTERMINATION This license becomes null and void if any of the above conditions are not met.\nDISCLAIMER THE FONT SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE."
+  },
+  {
+    "objectID": "2024/day/introduction/index.html",
+    "href": "2024/day/introduction/index.html",
+    "title": "2024: Introduction",
+    "section": "",
+    "text": "Most years I don’t do Advent of Code. And it’s unlikely I’ll get more than a few days into it this year.\nHonestly, building R packages, Quarto websites and creating GitHub issues is often more fun for me than solving computer programming puzzles.\nHowever, here I am, thinking about it again. Why?\n\nI’m a little pycurious, and advent of code is a nice opportunity to dabble in Python\nI’m trying to become less of a perfectionist, and so trying to solve something with limited time and uploading it is a good skill for me to practice.\nA couple of people in the NHS-R community are doing it - and it’s more fun with friends\nI really liked Ella’s cute template for a website.\n\nWill I make it past day 3? Who knows 🤷"
+  },
+  {
+    "objectID": "2024.html",
+    "href": "2024.html",
+    "title": "2024",
+    "section": "",
+    "text": "Title\n\n\nCategories\n\n\n\n\n\n\n2024: Introduction\n\n\n \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "fonts/Readme.html",
+    "href": "fonts/Readme.html",
+    "title": "iA-Fonts",
+    "section": "",
+    "text": "iA-Fonts\nThe iA Writer fonts comes bundled with iA Writer for for Android, Windows, Mac, iPadOS and iOS\nFor in depth explanation of iA Writer Mono, Duo, and Quattro please read our blog entry on Duospace and on iA Writer Mono, Duo, and Quattro\nThis is a modification of IBM’s Plex font. The upstream project is here Please read the licensing file before working with it.\nIf you fork or use our fonts, please reference iA Writer clearly. Use them creatively.\nDon’t be a copycat. With or without the fonts, do not clone our products or our website. Selling our work under your name is blatantly disrespectful and criminal. Distributing knockoffs of our work for free doesn’t make you Robin Hood either. We do not approve of free plugins or themes for other apps and other counterfeits that imitate our products. They’re poor quality, they undermine our business, and they openly violate our copyright. Due to their poor quality, they tarnish our reputation. They’re unethical, illegal, and lame."
+  }
+]
