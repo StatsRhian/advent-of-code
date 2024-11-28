@@ -18,6 +18,12 @@ website:
     right:
       - icon: github
         href: https://github.com/statsrhian/
+      - text: "{{< iconify fa6-brands bluesky >}}"
+        href: https://bsky.app/profile/statsrhian.bsky.social
+      - icon: mastodon
+        href: https://fosstodon.org/@statsrhian
+      - icon: linkedin
+        href: https://www.linkedin.com/in/statsrhian
   open-graph: true
 
 format:
