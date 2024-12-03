@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://StatsRhian.github.io/advent-of-code/index.html</loc>
-    <lastmod>2024-11-28T16:26:37.537Z</lastmod>
-  </url>
-  <url>
-    <loc>https://StatsRhian.github.io/advent-of-code/2024/day/introduction/index.html</loc>
-    <lastmod>2024-11-28T16:26:37.529Z</lastmod>
-  </url>
-  <url>
-    <loc>https://StatsRhian.github.io/advent-of-code/fonts/Readme.html</loc>
-    <lastmod>2024-11-28T16:26:37.537Z</lastmod>
+    <lastmod>2024-11-28T16:04:18.137Z</lastmod>
   </url>
   <url>
     <loc>https://StatsRhian.github.io/advent-of-code/fonts/LICENSE.html</loc>
-    <lastmod>2024-11-28T16:26:37.537Z</lastmod>
+    <lastmod>2024-11-28T16:04:18.123Z</lastmod>
+  </url>
+  <url>
+    <loc>https://StatsRhian.github.io/advent-of-code/2024/day/introduction/index.html</loc>
+    <lastmod>2024-11-28T16:04:18.083Z</lastmod>
+  </url>
+  <url>
+    <loc>https://StatsRhian.github.io/advent-of-code/2024/day/02/index.html</loc>
+    <lastmod>2024-12-03T22:12:27.242Z</lastmod>
+  </url>
+  <url>
+    <loc>https://StatsRhian.github.io/advent-of-code/2024/day/01/index.html</loc>
+    <lastmod>2024-12-03T22:08:59.855Z</lastmod>
+  </url>
+  <url>
+    <loc>https://StatsRhian.github.io/advent-of-code/2024/day/03/index.html</loc>
+    <lastmod>2024-12-03T22:12:25.842Z</lastmod>
   </url>
   <url>
     <loc>https://StatsRhian.github.io/advent-of-code/2024.html</loc>
-    <lastmod>2024-11-28T16:26:37.529Z</lastmod>
+    <lastmod>2024-11-28T16:04:18.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://StatsRhian.github.io/advent-of-code/fonts/Readme.html</loc>
+    <lastmod>2024-11-28T16:04:18.124Z</lastmod>
   </url>
 </urlset>

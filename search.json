@@ -7,20 +7,6 @@
     "text": "Advent of Code is a series of increasingly difficult programming challenges, released daily each year throughout December in the run-up to Christmas.\nThis website is created from the EllaKaye/advent-of-code repository. It is built with Quarto and supported by the aochelpers package."
   },
   {
-    "objectID": "2024/day/introduction/index.html",
-    "href": "2024/day/introduction/index.html",
-    "title": "2024: Introduction",
-    "section": "",
-    "text": "Most years I don’t do Advent of Code. And it’s unlikely I’ll get more than a few days into it this year.\nHonestly, building R packages, Quarto websites and creating GitHub issues is often more fun for me than solving computer programming puzzles.\nHowever, here I am, thinking about it again. Why?\n\nI’m a little pycurious, and advent of code is a nice opportunity to dabble in Python\nI’m trying to become less of a perfectionist, and so trying to solve something with limited time and uploading it is a good skill for me to practice.\nA couple of people in the NHS-R community are doing it - and it’s more fun with friends\nI really liked Ella’s cute template for a website.\n\nWill I make it past day 3? Who knows 🤷"
-  },
-  {
-    "objectID": "fonts/Readme.html",
-    "href": "fonts/Readme.html",
-    "title": "iA-Fonts",
-    "section": "",
-    "text": "iA-Fonts\nThe iA Writer fonts comes bundled with iA Writer for for Android, Windows, Mac, iPadOS and iOS\nFor in depth explanation of iA Writer Mono, Duo, and Quattro please read our blog entry on Duospace and on iA Writer Mono, Duo, and Quattro\nThis is a modification of IBM’s Plex font. The upstream project is here Please read the licensing file before working with it.\nIf you fork or use our fonts, please reference iA Writer clearly. Use them creatively.\nDon’t be a copycat. With or without the fonts, do not clone our products or our website. Selling our work under your name is blatantly disrespectful and criminal. Distributing knockoffs of our work for free doesn’t make you Robin Hood either. We do not approve of free plugins or themes for other apps and other counterfeits that imitate our products. They’re poor quality, they undermine our business, and they openly violate our copyright. Due to their poor quality, they tarnish our reputation. They’re unethical, illegal, and lame."
-  },
-  {
     "objectID": "fonts/LICENSE.html",
     "href": "fonts/LICENSE.html",
     "title": "iA Writer Typeface",
@@ -28,10 +14,129 @@
     "text": "iA Writer Typeface\nCopyright © 2018 Information Architects Inc. with Reserved Font Name “iA Writer”\n\n\nBased on IBM Plex Typeface\nCopyright © 2017 IBM Corp. with Reserved Font Name “Plex”\n\n\nLicense\nThis Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL\n\n\n\nSIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\n\n\n\nPREAMBLE The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.\nThe OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.\nDEFINITIONS “Font Software” refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.\n“Reserved Font Name” refers to any names specified as such after the copyright statement(s).\n“Original Version” refers to the collection of Font Software components as distributed by the Copyright Holder(s).\n“Modified Version” refers to any derivative made by adding to, deleting, or substituting – in part or in whole – any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.\n“Author” refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.\nPERMISSION & CONDITIONS Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:\n\nNeither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.\nOriginal or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.\nNo Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.\nThe name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.\nThe Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.\n\nTERMINATION This license becomes null and void if any of the above conditions are not met.\nDISCLAIMER THE FONT SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE."
   },
   {
+    "objectID": "2024/day/introduction/index.html",
+    "href": "2024/day/introduction/index.html",
+    "title": "2024: Introduction",
+    "section": "",
+    "text": "Most years I don’t do Advent of Code. And it’s unlikely I’ll get more than a few days into it this year.\nHonestly, building R packages, Quarto websites and creating GitHub issues is often more fun for me than solving computer programming puzzles.\nHowever, here I am, thinking about it again. Why?\n\nI’m a little pycurious, and advent of code is a nice opportunity to dabble in Python\nI’m trying to become less of a perfectionist, and so trying to solve something with limited time and uploading it is a good skill for me to practice.\nA couple of people in the NHS-R community are doing it - and it’s more fun with friends\nI really liked Ella’s cute template for a website.\n\nWill I make it past day 3? Who knows 🤷"
+  },
+  {
+    "objectID": "2024/day/02/index.html",
+    "href": "2024/day/02/index.html",
+    "title": "2024: Day 2",
+    "section": "",
+    "text": "The original challenge"
+  },
+  {
+    "objectID": "2024/day/02/index.html#setup",
+    "href": "2024/day/02/index.html#setup",
+    "title": "2024: Day 2",
+    "section": "",
+    "text": "The original challenge"
+  },
+  {
+    "objectID": "2024/day/02/index.html#my-thoughts",
+    "href": "2024/day/02/index.html#my-thoughts",
+    "title": "2024: Day 2",
+    "section": "My thoughts",
+    "text": "My thoughts\n\nWrote my first Python function 👶\n“Read mode” using open()\nI keep typing &lt;- instead of =\nIt’s len() not length()\nI forgot the : in the for loop definition"
+  },
+  {
+    "objectID": "2024/day/02/index.html#part-1",
+    "href": "2024/day/02/index.html#part-1",
+    "title": "2024: Day 2",
+    "section": "Part 1",
+    "text": "Part 1\n\n\nToggle the code\nimport numpy as np\n\n# Open the file in read mode\nwith open(\"input\") as file:\n    # Read all lines and store them in a list\n    input = [list(map(int, line.strip().split())) for line in file]\n\n\nFor each file I want to\n\ncalculate the difference\ncheck is it’s “safe”\n\ndiff is either all positive or all negative\nOnly allowed in “small steps” of size 1, 2 or 3\n\n\n\n\nToggle the code\ndef check_safe(file):\n    \"\"\"\n    This function takes a file and returns if it is \"safe\" or not \n    \"\"\"\n    diff = np.diff(file)\n    increasing = np.all(diff &gt; 0)\n    decreasing = np.all(diff &lt; 0)\n    small_steps = np.all(np.isin(abs(diff), np.array([1, 2, 3])))\n\n    safe = (increasing or decreasing) and small_steps\n\n    return safe\n\n\n\n\nToggle the code\nsum(list(map(check_safe, input)))\n\n\n486"
+  },
+  {
+    "objectID": "2024/day/02/index.html#part-2",
+    "href": "2024/day/02/index.html#part-2",
+    "title": "2024: Day 2",
+    "section": "Part 2",
+    "text": "Part 2\nI spent a while trying to avoid just brute forcing by looping over removing all possible exception. I found defining those edge cases a bit harder and just looped over the removal instead.\n\n\nToggle the code\ndef check_safe_tolerant(file):\n    \"\"\"\n    This is a tolerant check which allows one file to be removed. Returns if it is \"safe\" or not \n    \"\"\"\n    if check_safe(file):\n        return True\n    else:\n        is_safe=np.zeros(len(file))\n        for i in range(len(file)):\n            is_safe[i] = check_safe(np.delete(file, i))\n        return any(is_safe)\n\n\n\n\nToggle the code\nsum(list(map(check_safe_tolerant, input)))\n\n\n540"
+  },
+  {
+    "objectID": "2024/day/01/index.html",
+    "href": "2024/day/01/index.html",
+    "title": "2024: Day 1",
+    "section": "",
+    "text": "The original challenge"
+  },
+  {
+    "objectID": "2024/day/01/index.html#setup",
+    "href": "2024/day/01/index.html#setup",
+    "title": "2024: Day 1",
+    "section": "",
+    "text": "The original challenge"
+  },
+  {
+    "objectID": "2024/day/01/index.html#my-thoughts",
+    "href": "2024/day/01/index.html#my-thoughts",
+    "title": "2024: Day 1",
+    "section": "My thoughts",
+    "text": "My thoughts\n\nI realise I didn’t have Quarto set up for running Python chunks and I needed to install nbformat\nI don’t have a good understanding of the different object types in Python and what is and isn’t allowed\nUsing ChatGPT to answer stupid Python questions is faster than trawling Stack Overflow. Although I do like that you get a mix of answers and approaches on Stack Overflow, when I’m just trying to get started with basic examples, Chat GPT is good enough.\nAnd yes, 0 indexing did catch me out 🤦\nI know basically nothing about Python, so let’s see how far I can make it before I give up and switch back to R…"
+  },
+  {
+    "objectID": "2024/day/01/index.html#part-1",
+    "href": "2024/day/01/index.html#part-1",
+    "title": "2024: Day 1",
+    "section": "Part 1",
+    "text": "Part 1\n\n\nToggle the code\nimport numpy as np\ninput = np.loadtxt(\"input\", dtype=int) \n\n\n\n\nToggle the code\nlist0 = np.array(sorted(input[:, 0]))\nlist1 = np.array(sorted(input[:, 1]))\n\nsum(abs(list0 - list1))\n\n\n2176849"
+  },
+  {
+    "objectID": "2024/day/01/index.html#part-2",
+    "href": "2024/day/01/index.html#part-2",
+    "title": "2024: Day 1",
+    "section": "Part 2",
+    "text": "Part 2\n\n\nToggle the code\ncount=np.zeros(1000)\nfor i in range(len(list0)):\n    count[i] = np.count_nonzero(list1 == list0[i])\n\nsum(count * list0)\n\n\n23384288.0"
+  },
+  {
+    "objectID": "2024/day/03/index.html",
+    "href": "2024/day/03/index.html",
+    "title": "2024: Day 3",
+    "section": "",
+    "text": "The original challenge"
+  },
+  {
+    "objectID": "2024/day/03/index.html#setup",
+    "href": "2024/day/03/index.html#setup",
+    "title": "2024: Day 3",
+    "section": "",
+    "text": "The original challenge"
+  },
+  {
+    "objectID": "2024/day/03/index.html#my-thoughts",
+    "href": "2024/day/03/index.html#my-thoughts",
+    "title": "2024: Day 3",
+    "section": "My thoughts",
+    "text": "My thoughts\n\nI like regex, so this one should be a little more straight forward\nSeems like {re} is the package for regular expressions in python?\nThe split() function was useful here for separating out the two numbers from mult(123,212)\nNeed to sort out a nice auto-formatter for formatting python code in my IDE"
+  },
+  {
+    "objectID": "2024/day/03/index.html#part-1",
+    "href": "2024/day/03/index.html#part-1",
+    "title": "2024: Day 3",
+    "section": "Part 1",
+    "text": "Part 1\n\n\nToggle the code\nimport re\nimport numpy as np\n\nwith open(\"input\", 'r') as file:\n    # Read the entire content of the file\n    input = file.read()\n\n\n\n\nToggle the code\npattern = r'mul\\(\\d{1,3},\\d{1,3}\\)'\nvalid = re.findall(pattern, input)\n\n\n\n\nToggle the code\ndef do_mult(commands):\n    total = 0\n    for i in range(len(commands)):\n        stripped = commands[i][4:len(commands[i])-1]\n        values = np.array(stripped.split(\",\"), dtype=float)\n\n        total = total + np.prod(values)\n    return total\n\ndo_mult(valid)\n\n\n179571322.0"
+  },
+  {
+    "objectID": "2024/day/03/index.html#part-2",
+    "href": "2024/day/03/index.html#part-2",
+    "title": "2024: Day 3",
+    "section": "Part 2",
+    "text": "Part 2\n\n\nToggle the code\npattern = r\"mul\\(\\d{1,3},\\d{1,3}\\)|do\\(\\)|don't\\(\\)\"\nvalid = re.findall(pattern, input)\n\n\nFor this part I could identify all the multipliers that appear between a do and and a don’t and remove them from the valid list.\nAnother quick and dirty approach would be to keep track if we’re in a do or a don’t state as we loop. Which is what I went for.\n\n\nToggle the code\ndef do_conditional_mult(commands):\n    total = 0\n    state = \"do\"\n\n    for i in range(len(commands)):\n        if commands[i][0:3] == \"mul\":\n            if state == \"do\":\n                stripped = commands[i][4:len(commands[i])-1]\n                values = np.array(stripped.split(\",\"), dtype=float)\n                total = total + np.prod(values)\n        elif commands[i] == \"do()\":\n            state = \"do\"\n        elif commands[i] == \"don't()\":\n            state = \"don't\"\n\n    return total\n\n\n\n\nToggle the code\ndo_conditional_mult(valid)\n\n\n103811193.0"
+  },
+  {
     "objectID": "2024.html",
     "href": "2024.html",
     "title": "2024",
     "section": "",
-    "text": "Title\n\n\nCategories\n\n\n\n\n\n\n2024: Introduction\n\n\n \n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nCategories\n\n\n\n\n\n\n2024: Introduction\n\n\n \n\n\n\n\n2024: Day 1\n\n\npython\n\n\n\n\n2024: Day 2\n\n\npython\n\n\n\n\n2024: Day 3\n\n\npython, regex\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "fonts/Readme.html",
+    "href": "fonts/Readme.html",
+    "title": "iA-Fonts",
+    "section": "",
+    "text": "iA-Fonts\nThe iA Writer fonts comes bundled with iA Writer for for Android, Windows, Mac, iPadOS and iOS\nFor in depth explanation of iA Writer Mono, Duo, and Quattro please read our blog entry on Duospace and on iA Writer Mono, Duo, and Quattro\nThis is a modification of IBM’s Plex font. The upstream project is here Please read the licensing file before working with it.\nIf you fork or use our fonts, please reference iA Writer clearly. Use them creatively.\nDon’t be a copycat. With or without the fonts, do not clone our products or our website. Selling our work under your name is blatantly disrespectful and criminal. Distributing knockoffs of our work for free doesn’t make you Robin Hood either. We do not approve of free plugins or themes for other apps and other counterfeits that imitate our products. They’re poor quality, they undermine our business, and they openly violate our copyright. Due to their poor quality, they tarnish our reputation. They’re unethical, illegal, and lame."
   }
 ]
