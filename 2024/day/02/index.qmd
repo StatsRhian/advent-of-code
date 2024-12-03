@@ -1,0 +1,82 @@
+---
+title: "2024: Day 2"
+date: 2024-12-2
+categories:
+  - python
+draft: false
+---
+
+## Setup
+
+[The original challenge](https://adventofcode.com/2024/day/2)
+
+## My thoughts
+
+
+
+- Wrote my first Python function 👶
+- "Read mode" using `open()`
+- I keep typing `<-` instead of `=`
+- It's `len()` not `length()` 
+- I forgot the `:` in the for loop definition
+
+## Part 1
+
+```{python}
+import numpy as np
+
+# Open the file in read mode
+with open("input") as file:
+    # Read all lines and store them in a list
+    input = [list(map(int, line.strip().split())) for line in file]
+```
+
+For each file I want to 
+
+- calculate the difference
+- check is it's "safe"
+    - diff is either all positive or all negative
+    - Only allowed in "small steps" of size 1, 2 or 3
+
+```{python}
+def check_safe(file):
+    """
+    This function takes a file and returns if it is "safe" or not 
+    """
+    diff = np.diff(file)
+    increasing = np.all(diff > 0)
+    decreasing = np.all(diff < 0)
+    small_steps = np.all(np.isin(abs(diff), np.array([1, 2, 3])))
+
+    safe = (increasing or decreasing) and small_steps
+
+    return safe
+
+```
+
+```{python}
+sum(list(map(check_safe, input)))
+```
+
+## Part 2
+
+I spent a while trying to avoid just brute forcing by looping over removing all possible exception. I found defining those edge cases a bit harder and just looped over the removal instead.
+
+```{python}
+def check_safe_tolerant(file):
+    """
+    This is a tolerant check which allows one file to be removed. Returns if it is "safe" or not 
+    """
+    if check_safe(file):
+        return True
+    else:
+        is_safe=np.zeros(len(file))
+        for i in range(len(file)):
+            is_safe[i] = check_safe(np.delete(file, i))
+        return any(is_safe)
+```
+
+
+```{python}
+sum(list(map(check_safe_tolerant, input)))
+```

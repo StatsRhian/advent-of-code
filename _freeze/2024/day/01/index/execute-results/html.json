@@ -1,0 +1,12 @@
+{
+  "hash": "cdefbb45892a87e4f7b7f5669683ad0e",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"2024: Day 1\"\ndate: 2024-12-1\ncategories:\n  - python\ndraft: false\n---\n\n\n\n\n\n## Setup\n\n[The original challenge](https://adventofcode.com/2024/day/1)\n\n[My data](input){target=\"_blank\"}\n\n## My thoughts\n\n- I realise I didn't have Quarto set up for running Python chunks and I needed to install nbformat\n\n- I don't have a good understanding of the different object types in Python and what is and isn't allowed\n\n- Using ChatGPT to answer stupid Python questions is faster than trawling Stack Overflow. Although I do like that you get a mix of answers and approaches on Stack Overflow, when I'm just trying to get started with basic examples, Chat GPT is good enough.\n\n- And yes, 0 indexing did catch me out 🤦\n\n- I know basically nothing about Python, so let's see how far I can make it before I give up and switch back to R...\n\n## Part 1\n\n::: {#655c7911 .cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\ninput = np.loadtxt(\"input\", dtype=int) \n```\n:::\n\n\n::: {#aee43a05 .cell execution_count=2}\n``` {.python .cell-code}\nlist0 = np.array(sorted(input[:, 0]))\nlist1 = np.array(sorted(input[:, 1]))\n\nsum(abs(list0 - list1))\n```\n\n::: {.cell-output .cell-output-display execution_count=2}\n```\n2176849\n```\n:::\n:::\n\n\n## Part 2\n\n::: {#bb03fe5e .cell execution_count=3}\n``` {.python .cell-code}\ncount=np.zeros(1000)\nfor i in range(len(list0)):\n    count[i] = np.count_nonzero(list1 == list0[i])\n\nsum(count * list0)\n```\n\n::: {.cell-output .cell-output-display execution_count=3}\n```\n23384288.0\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

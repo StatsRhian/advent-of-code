@@ -1,0 +1,82 @@
+---
+title: "2024: Day 3"
+date: 2024-12-3
+categories:
+  - python
+  - regex
+draft: false
+---
+
+## Setup
+
+[The original challenge](https://adventofcode.com/2024/day/3)
+
+## My thoughts
+
+- I like regex, so this one should be a little more straight forward
+- Seems like {re} is the package for regular expressions in python?
+- The `split()` function was useful here for separating out the two numbers from `mult(123,212)`
+- Need to sort out a nice auto-formatter for formatting python code in my IDE
+
+## Part 1
+
+```{python}
+import re
+import numpy as np
+
+with open("input", 'r') as file:
+    # Read the entire content of the file
+    input = file.read()
+```
+
+```{python}
+pattern = r'mul\(\d{1,3},\d{1,3}\)'
+valid = re.findall(pattern, input)
+```
+
+```{python}
+def do_mult(commands):
+    total = 0
+    for i in range(len(commands)):
+        stripped = commands[i][4:len(commands[i])-1]
+        values = np.array(stripped.split(","), dtype=float)
+
+        total = total + np.prod(values)
+    return total
+
+do_mult(valid)
+```
+
+## Part 2
+
+```{python}
+pattern = r"mul\(\d{1,3},\d{1,3}\)|do\(\)|don't\(\)"
+valid = re.findall(pattern, input)
+```
+
+For this part I _could_ identify all the multipliers that appear between a do and and a don't and remove them from the valid list. 
+
+Another quick and dirty approach would be to keep track if we're in a do or a don't state as we loop. Which is what I went for. 
+
+```{python}
+def do_conditional_mult(commands):
+    total = 0
+    state = "do"
+
+    for i in range(len(commands)):
+        if commands[i][0:3] == "mul":
+            if state == "do":
+                stripped = commands[i][4:len(commands[i])-1]
+                values = np.array(stripped.split(","), dtype=float)
+                total = total + np.prod(values)
+        elif commands[i] == "do()":
+            state = "do"
+        elif commands[i] == "don't()":
+            state = "don't"
+
+    return total
+```
+
+```{python}
+do_conditional_mult(valid)
+```

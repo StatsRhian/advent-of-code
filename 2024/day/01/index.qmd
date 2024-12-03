@@ -1,0 +1,49 @@
+---
+title: "2024: Day 1"
+date: 2024-12-1
+categories:
+  - python
+draft: false
+---
+
+## Setup
+
+[The original challenge](https://adventofcode.com/2024/day/1)
+
+## My thoughts
+
+- I realise I didn't have Quarto set up for running Python chunks and I needed to install nbformat
+
+- I don't have a good understanding of the different object types in Python and what is and isn't allowed
+
+- Using ChatGPT to answer stupid Python questions is faster than trawling Stack Overflow. Although I do like that you get a mix of answers and approaches on Stack Overflow, when I'm just trying to get started with basic examples, Chat GPT is good enough.
+
+- And yes, 0 indexing did catch me out 🤦
+
+- I know basically nothing about Python, so let's see how far I can make it before I give up and switch back to R...
+
+## Part 1
+
+```{python}
+import numpy as np
+input = np.loadtxt("input", dtype=int) 
+```
+
+```{python}
+list0 = np.array(sorted(input[:, 0]))
+list1 = np.array(sorted(input[:, 1]))
+
+sum(abs(list0 - list1))
+```
+
+## Part 2
+
+```{python}
+count=np.zeros(1000)
+for i in range(len(list0)):
+    count[i] = np.count_nonzero(list1 == list0[i])
+
+sum(count * list0)
+```
+
+
