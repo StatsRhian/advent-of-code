@@ -1,0 +1,9 @@
+---
+title: "2025: Introduction"
+date: 2025-11-31
+code-tools: false
+categories: 
+---
+
+
+I'm continueing my tradition of not really doing Advent of Code. Although we

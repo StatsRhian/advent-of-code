@@ -1,0 +1,53 @@
+---
+title: "2025: Day 1"
+date: 2025-12-1
+categories:
+  - r
+draft: false
+---
+
+## Setup
+
+[The original challenge](https://adventofcode.com/2025/day/1)
+
+## My thoughts
+
+We did this as part of our Coffee & Code in The Strategy Unit. I paired up with a non-coding analysts.
+Some of the groups did part 1 in Excel. We wrote a simple for loop in R. We didn't get time to do part 2.
+
+Modulo arithmetic often features heavily in these puzzles. And it's interesting because although you probably never studied it under undergrad mathematics - almost everyone learnt to do "clock arithmetic" in primary school.
+
+When chatting with the analyst about the approach we talked about 
+
+- the importance of readable variable names
+- how to build up code by starting with a small section you can follow `lines <- lines[1:5]`
+- how renaming variables can cause bugs (and the important of cleaning your environment)
+- more bug spotting (we originally accidentally left a variable called `starting_position` in the if statement which broke the loop)
+
+## Part 1
+
+```{r}
+lines <- readLines("input.txt")
+
+results <- vector(length = length(lines))
+position <- 50
+
+for (counter in 1:length(lines)) {
+instruction <- lines[counter]
+  
+direction <- substr(instruction, 1, 1)
+amount <- as.numeric(substr(instruction, 2, nchar(instruction)))
+
+if (direction == "R") {
+  position = (position + amount) %% 100
+} else if (direction == "L") {
+  position = (position - amount) %% 100
+}
+
+results[counter] <- position    
+}
+
+sum(results == 0)
+```
+
+

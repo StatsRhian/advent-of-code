@@ -5,6 +5,9 @@ project:
   preview:
     port: 4321
 
+jupyter:
+  python: .venv/Scripts/python.exe
+
 execute:
   freeze: auto
   
@@ -14,6 +17,7 @@ website:
   repo-url: https://github.com/statsrhian/advent-of-code
   navbar:
     left:
+      - 2025.qmd
       - 2024.qmd
     right:
       - icon: github
